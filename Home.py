@@ -81,7 +81,7 @@ if authentication_status:
                  }
     
     data_Pros = pd.DataFrame(tab_data, header= "keys", tablefmt = 'grid')
-        st.write(f"Welcome {selected}")
+    st.write(f"Welcome {selected}")
 
     if selected == "Course Assignment and Enrollment":
         st.write(f"Welcome {selected}")
